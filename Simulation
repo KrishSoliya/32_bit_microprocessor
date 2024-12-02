@@ -1,0 +1,2 @@
+simulate:
+	iverilog -o pipeline_sim src/*.v testbench/*.v && vvp pipeline_sim
